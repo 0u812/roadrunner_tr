@@ -9,5 +9,6 @@ setup(name='libroadrunner_tr',
       packages=['roadrunner_tr'],
       install_requires=[
         'libroadrunner',
+        'pandas',
         ],
       )
