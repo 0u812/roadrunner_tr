@@ -2,7 +2,7 @@
 
 if __name__ == '__main__':
     import sys
-    from roadruner_tr import TestRunner
+    from roadrunner_tr import TestRunner
     t = TestRunner()
     t.run(*sys.argv[1:])
     sys.exit(0)
