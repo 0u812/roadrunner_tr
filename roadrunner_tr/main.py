@@ -40,4 +40,5 @@ class TestRunner:
         r.selections = ['time'] + settings.amount + settings.concentration
         results = r.simulate(settings.start, settings.duration, settings.steps+1)
         from pandas import DataFrame
-        DataFrame(results, columns=r.selections).to_csv(join(o,'.'.join([n,'csv'])))
+        print(r.selections)
+        DataFrame(results, columns=r.selections).to_csv(join(o,'.'.join([n,'csv'])), index=False, encoding='utf-8')
