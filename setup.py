@@ -8,7 +8,7 @@ setup(name='libroadrunner_tr',
       description='SBML Test Suite Runner for libRoadRunner',
       author='J. Kyle Medley',
       packages=['roadrunner_tr'],
-      scripts=[join('bin','roadrunner_tr')],
+      scripts=[join('scripts','roadrunner_tr')],
       install_requires=[
         'libroadrunner',
         'pandas',
